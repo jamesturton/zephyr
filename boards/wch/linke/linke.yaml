@@ -1,0 +1,11 @@
+identifier: linke
+name: WCH LinkE
+type: mcu
+arch: riscv
+toolchain:
+  - cross-compile
+  - zephyr
+ram: 32
+flash: 128
+supported:
+  - gpio

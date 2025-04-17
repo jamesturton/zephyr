@@ -1,0 +1,15 @@
+/*
+ * Copyright (c) 2025 MASSDRIVER EI (massdriver.space)
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#include <wch/ch32v305/ch32v305.dtsi>
+
+&gpiod {
+	gpio-reserved-ranges = <0 16>;
+};
+
+&gpioe {
+	gpio-reserved-ranges = <0 16>;
+};

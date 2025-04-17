@@ -1,0 +1,6 @@
+board:
+  name: linke
+  full_name: WCH LinkE
+  vendor: wch
+  socs:
+    - name: ch32v305
